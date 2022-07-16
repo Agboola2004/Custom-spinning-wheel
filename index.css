@@ -1,0 +1,105 @@
+/* styling information beneath spinner */
+
+body {
+  /* background-color: teal; */
+
+  font-family: verdana;
+  background-image: url("spy.jpg");
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: rgb(212, 111, 128);
+  cursor: pointer;
+  padding: 40px;
+  height:100%;
+  width:100%;
+}
+
+/* general styling */
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+#spinner {
+  width: 500px;
+  height: 420px;
+
+  margin-bottom: 100px;
+}
+
+/* styling for all information beneath spinner */
+#information {
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* styling for first header in general(edits,results and the likes */
+.header {
+  background-color: gold;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 40px;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* styling for numbers on edit and results */
+span {
+  position: absolute;
+  margin-top: -10px;
+  height: 17px;
+  width: 17px;
+  color: white;
+  padding: 2px;
+
+  background-color: black;
+  border-radius: 50%;
+}
+
+/* styling for general li tags */
+li {
+  text-decoration: none;
+  color: black;
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+/* styling for buttons */
+button {
+  height: 35px;
+  outline: none;
+  border-radius: 3px;
+  font-family: verdana;
+  color: black;
+  border: none;
+
+  background-color: rgba(244, 238, 238, 0.616);
+}
+
+/* styling for spin outcome tab */
+
+#inputs-container {
+  margin-top: 5px;
+  width: 80%;
+  height: 0px;
+  overflow-x: hidden;
+}
+#inputs-container input {
+  width: 100%;
+  height: 30px;
+  /* padding: 0 10px; */
+  margin-bottom: 2px;
+}
